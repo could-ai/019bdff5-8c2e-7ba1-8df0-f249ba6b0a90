@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
               child: Column(
                 children: [
                   const Text(
-                    'Premium Business Solutions\nBridging India & UK',
+                    'Premium Financial Solutions\nBridging India & UK',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.white,
@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 20),
                   const Text(
-                    'Expert consultancy, IT services, and strategic growth partners for your UK business.',
+                    'Expert Virtual CFO, Accounting, and Strategic Advisory partners for your UK business.',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.white70,
@@ -82,19 +82,19 @@ class HomeScreen extends StatelessWidget {
                           _buildFeatureCard(
                             icon: Icons.public,
                             title: 'Global Reach',
-                            description: 'Seamlessly connecting Indian expertise with UK market demands.',
+                            description: 'Seamlessly connecting Indian financial expertise with UK market demands.',
                             width: constraints.maxWidth > 800 ? 300 : constraints.maxWidth,
                           ),
                           _buildFeatureCard(
                             icon: Icons.verified_user,
                             title: 'UK Compliance',
-                            description: 'Fully compliant with UK business regulations and standards.',
+                            description: 'Fully compliant with HMRC regulations and UK accounting standards.',
                             width: constraints.maxWidth > 800 ? 300 : constraints.maxWidth,
                           ),
                           _buildFeatureCard(
                             icon: Icons.trending_up,
                             title: 'Cost Effective',
-                            description: 'High-quality services at competitive rates for maximum ROI.',
+                            description: 'High-quality financial services at competitive rates for maximum ROI.',
                             width: constraints.maxWidth > 800 ? 300 : constraints.maxWidth,
                           ),
                         ],
@@ -112,7 +112,7 @@ class HomeScreen extends StatelessWidget {
               child: Column(
                 children: [
                   const Text(
-                    'Ready to elevate your business?',
+                    'Ready to optimize your finances?',
                     style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
                     textAlign: TextAlign.center,
                   ),
